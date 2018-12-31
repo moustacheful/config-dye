@@ -4,7 +4,7 @@
   "description": "A CLI tool for transforming templates into config files, focused on theming, with color manipulation filtering.",
   "main": "index.js",
   "bin": {
-    "config-templates": "./index.js"
+    "config-dye": "./index.js"
   },
   "author": "Daniel Acuña",
   "license": "ISC",

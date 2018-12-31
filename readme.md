@@ -31,10 +31,17 @@ Which will result into the first block. This allows to process many config files
 ### Usage
 
 ```bash
-npx config-templates --path=./templates --data=data.json --dest=./.config
+npx config-dye --path=./templates --data=data.json --dest=./.config
 ```
 
 This will recursively process all the `.njk` files within ./templates, and output them, applying data.json, with the same structure to ./config.
+
+`npx` will pull all the dependencies and execute with the given parameters. It will always do this if you're using it as is, so if you want to avoid that step, you can also do
+
+```bash
+npm i -g config-dye # Needs sudo
+config-dye --path=./templates --data=data.json --dest=./.config
+```
 
 ### Filters
 
