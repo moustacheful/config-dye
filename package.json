@@ -1,6 +1,6 @@
 {
   "name": "config-dye",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI tool for transforming templates into config files, focused on theming, with color manipulation filtering.",
   "main": "index.js",
   "bin": {
