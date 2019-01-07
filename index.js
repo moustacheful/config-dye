@@ -50,6 +50,7 @@ glob(
   `${templatesPath}/**/*.njk`,
   {
     ignore: '**/_*.njk',
+    dot: true,
   },
   (err, matches) => {
     if (err) throw err;
