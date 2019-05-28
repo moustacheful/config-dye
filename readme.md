@@ -34,7 +34,7 @@ Which will result into the first block. This allows to process many config files
 npx config-dye --path=./templates --data=data.json --dest=./.config
 ```
 
-This will recursively process all the `.njk` files within ./templates, and output them, applying data.json, with the same structure to ./config.
+This will recursively process all the `.njk` files within `./templates`, and output them, applying data.json, with the same structure to `./config`.
 
 `npx` will pull all the dependencies and execute with the given parameters. It will always do this if you're using it as is, so if you want to avoid that step, you can also do
 
@@ -47,7 +47,7 @@ config-dye --path=./templates --data=data.json --dest=./.config
 
 Additionally the templating process has filters to process colors using [color](https://www.npmjs.com/package/color).
 
-For example , for the following
+For example, for the following
 
 ```nunjucks
 {{accent | lighten(0.5) | hex}}
